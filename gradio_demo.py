@@ -38,7 +38,7 @@ def process(
     iou_threshold,
     use_paddleocr,
     imgsz
-) -> Optional[Image.Image]:
+):
 
     box_overlay_ratio = image_input.size[0] / 3200
     draw_bbox_config = {
