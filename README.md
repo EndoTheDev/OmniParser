@@ -87,4 +87,4 @@ Run with UV
 
 ```uv pip install -r requirements.txt```
 
-```python streamlit_demo.py``` 
+```streamlit run streamlit_demo.py --server.port 8501 --server.address 0.0.0.0```
