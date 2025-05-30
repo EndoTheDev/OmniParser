@@ -78,3 +78,13 @@ If you find our work useful, please consider citing our work:
       url={https://arxiv.org/abs/2408.00203}, 
 }
 ```
+
+Run with UV
+
+```uv python pin cpython-3.12.10-linux-x86_64-gnu```
+
+```source .venv/bin/activate```
+
+```uv pip install -r requirements.txt```
+
+```python streamlit_demo.py``` 
